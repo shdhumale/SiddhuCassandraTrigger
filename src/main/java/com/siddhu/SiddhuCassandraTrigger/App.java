@@ -22,7 +22,7 @@ public class App implements ITrigger {
 	private static Logger logger = Logger.getLogger(App.class);
 
 	public App() {
-		logger.info("Cassandra to Kafka trigger successfully initialized");
+		logger.info("Cassandra trigger successfully initialized");
 	}
 
 	@Override
